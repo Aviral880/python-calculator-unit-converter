@@ -39,7 +39,7 @@ def main():
         print("4. Division")
         print("5. Kilometers to Miles")
         print("6. Celsius to Fahrenheit")
-        print("7. Kilogram to Pounds")
+        print("7. Kilograms to Pounds")
         print("8. Quit")
 
         choice = input("Enter your choice (1-8): ")
@@ -47,5 +47,15 @@ def main():
         if choice == "8":
             print("Thanks for using the program!")
             break
+        elif choice in ("1", "2", "3", "4"):
+            a = userr_num("Enter the first number: ")
+            b = userr_num("Enter the second number: ")
+
+            if choice == "1":
+                print("Result:", add(a, b))
+            elif choice == "2":
+                print("Result:", subtract(a, b))    
+
+
 
 
