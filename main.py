@@ -21,3 +21,12 @@ def celsius_to_fahrenheit(celsius):
 def kg_to_pounds(kg):
     return round(kg*2.20462,3)
 
+
+def userr_num(prompt):
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input! Please enter a number.")
+
+
