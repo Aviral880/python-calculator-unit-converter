@@ -30,3 +30,22 @@ def userr_num(prompt):
             print("Invalid input! Please enter a number.")
 
 
+def main():
+    while True:
+        print("\n=== Python Calculator & Unit Converter ===")
+        print("1. Addition")
+        print("2. Subtraction")
+        print("3. Multiplication")
+        print("4. Division")
+        print("5. Kilometers to Miles")
+        print("6. Celsius to Fahrenheit")
+        print("7. Kilogram to Pounds")
+        print("8. Quit")
+
+        choice = input("Enter your choice (1-8): ")
+
+        if choice == "8":
+            print("Thanks for using the program!")
+            break
+
+
