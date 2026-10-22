@@ -13,11 +13,11 @@ def divide(a,b):
     return a/b
 
 def km_to_miles(km):
-    return km*0.621371
+    return round(km*0.621371,3)
 
 def celsius_to_fahrenheit(celsius):
     return (celsius*9/5)+32
 
 def kg_to_pounds(kg):
-    return round(kg*2.20462)
+    return round(kg*2.20462,3)
 
